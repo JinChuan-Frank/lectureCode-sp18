@@ -16,9 +16,9 @@ public class Sort {
 
 	/** Swap item a with b. */
 	public static void swap(String[] x, int a, int b) {
-
+		String temp = x[a];
 	    x[a] = x[b];
-	    x[b] = x[a];
+	    x[b] = temp;
     }
 
 	/** Return the index of the smallest String in x, starting at start. */

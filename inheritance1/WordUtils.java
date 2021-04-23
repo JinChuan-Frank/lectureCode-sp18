@@ -13,7 +13,7 @@ public class WordUtils {
    }
 
     public static void main(String[] args) {
-     AList<String> someList = new AList<>();
+     SLList<String> someList = new SLList<>();
      someList.addLast("elk");
      someList.addLast("are");
      someList.addLast("watching");
